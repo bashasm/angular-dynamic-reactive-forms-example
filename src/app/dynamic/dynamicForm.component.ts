@@ -1,10 +1,4 @@
-import {
-  Component,
-  OnInit,
-  Input,
-  OnChanges,
-  AfterViewInit
-} from "@angular/core";
+import { Component, Input, OnInit } from "@angular/core";
 import { FormGroup } from "@angular/forms";
 @Component({
   selector: "app-dynamic-form",
