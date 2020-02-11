@@ -65,10 +65,7 @@ const countriesData = [
 @Component({
   selector: "app",
   template: `
-    <app-dynamic-form
-      [fields]="fields"
-      [formGroup]="dynamicForm"
-    ></app-dynamic-form>
+    <app-wrapper [fields]="fields" [formGroup]="dynamicForm"></app-wrapper>
   `
 })
 export class AppComponent implements OnInit {
